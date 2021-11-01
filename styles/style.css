@@ -1,0 +1,39 @@
+/* Header Style Details  */
+
+/* Potential colors: E1A044, DB8000, 5C411C, A86200*/
+
+
+    /*Font Information*/
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Sawarabi+Mincho&display=swap');
+#logo img{
+    text-align: left;
+    width: 120px;
+
+}
+
+header{
+    text-align: left;
+    background-color: E1A044;
+    font-family: 'Birthstone Bounce', cursive;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+#hero-img{
+    text-align: center;
+    width: 100%;
+
+}
+
+/*  
+
+justify-content
+Aligns the grid container along the inline axis (by default horizontal). This only works when the grid is narrower than the space available.
+justify-items
+Aligns the grid item contents along the inline axis (by default horizontal). This only works when the contents of a grid cell are narrower than the grid cell.
+align-content
+Aligns the grid container along the block axis (by default vertical). This only works when the grid is shorter than the space available.
+align-items
+Aligns the grid item contents along the block axis (by default vertical). This only works when the contents of a grid cell are shorter than the grid cell.
+
+*/
