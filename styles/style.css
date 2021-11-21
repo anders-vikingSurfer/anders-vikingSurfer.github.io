@@ -25,6 +25,72 @@ header{
 
 }
 
+
+.add-to-bag{
+    background-color: #ffa468;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.add-to-bag:hover{
+    background-color: #cc5200;;
+   
+}
+
+.card-img{
+
+  border: 10px soli#rgb(184, 117, 72);
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+  
+
+}
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
+header{
+  text-align: left;
+  background-color: #ffa468;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  padding: 35px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:hover {
+  background-color: #cc5200;
+  color: whitesmoke;
+}
+body{
+  background-color: bisque;
+}
+
+footer{
+  text-align: left;
+  background-color:rgb(184, 117, 72);
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+
+/*Contact us*/
 form {
     /* Center the form on the page */
     margin: 0 auto;
