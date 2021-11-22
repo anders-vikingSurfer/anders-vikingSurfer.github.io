@@ -27,14 +27,16 @@ header{
 
 
 .add-to-bag{
+  
     background-color: #ffa468;
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px 30px;
+    padding: 10px 24px;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius:12px;
     margin-bottom: 50px;
+    display: inline-block;
 }
 .add-to-bag:hover{
     background-color: #cc5200;;
@@ -43,7 +45,7 @@ header{
 
 .card-img{
 
-  border: 10px soli#rgb(184, 117, 72);
+  border: 10px rgb(184, 117, 72);
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
   
@@ -81,7 +83,57 @@ nav a:hover {
 body{
   background-color: bisque;
 }
+.homegrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.product1{
+  grid-column: 1/2;
 
+}
+.product2{
+  grid-column: 2/3;
+
+}
+
+.product3{
+
+}
+
+.product4{
+
+}
+
+.product5{
+
+}
+
+.product6{
+
+}
+.product7{
+
+}
+
+.product8{
+
+}
+
+.product9{
+
+}
+
+.product10{
+
+}
+
+.product11{
+
+}
+
+.product12{
+
+}
 footer{
   text-align: left;
   background-color:rgb(184, 117, 72);
