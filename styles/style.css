@@ -5,7 +5,7 @@
 
     /*Font Information*/
 
-@import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Sawarabi+Mincho&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Lato:wght@300&family=Playfair+Display:wght@500&family=Sawarabi+Mincho&display=swap');
 #logo img{
     text-align: left;
     width: 120px;
@@ -17,8 +17,13 @@ header{
     background-color: E1A044;
     font-family: 'Birthstone Bounce', cursive;
     font-family: 'Sawarabi Mincho', sans-serif;
-}
 
+}
+.candles{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-left: 100px;
+}
 #hero-img{
     text-align: center;
     width: 100%;
@@ -31,7 +36,7 @@ header{
     background-color: #ffa468;
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 12px;
     padding: 10px 24px;
     margin-top: 50px;
     border-radius:12px;
@@ -39,8 +44,13 @@ header{
     display: inline-block;
 }
 .add-to-bag:hover{
-    background-color: #cc5200;;
+    background-color: #cc5200;
+    text-decoration: none;
    
+}
+.add-to-bag bag{
+  text-decoration: none;
+
 }
 
 .card-img{
@@ -83,63 +93,54 @@ nav a:hover {
 body{
   background-color: bisque;
 }
+
 .homegrid{
   display: grid;
   grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  justify-items: center;
+  padding-top: 50px;
+  font-family: 'Sawarabi Mincho', sans-serif;
 }
 .product1{
   grid-column: 1/2;
+  padding-left: 50px;
+  text-decoration: none;
 
 }
 .product2{
   grid-column: 2/3;
+  padding-left: 55px;
+  text-decoration: none;
 
 }
 
-.product3{
 
-}
-
-.product4{
-
-}
-
-.product5{
-
-}
-
-.product6{
-
-}
-.product7{
-
-}
-
-.product8{
-
-}
-
-.product9{
-
-}
-
-.product10{
-
-}
-
-.product11{
-
-}
-
-.product12{
-
-}
 footer{
   text-align: left;
-  background-color:rgb(184, 117, 72);
+  background-color:#ffa468;
   display: grid;
   grid-template-columns: 150px auto;
+  margin-top: 200px;
+  padding: 25px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
+footer .social img{
+  padding-top: 15px;
+  
+}
+
+.social a{
+  text-decoration: none;
+
+}
+.social{
+  text-align: left;
+}
+
+
 
 
 /*Contact us*/
