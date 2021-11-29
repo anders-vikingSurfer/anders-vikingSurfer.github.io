@@ -42,6 +42,10 @@ header{
     border-radius:12px;
     margin-bottom: 50px;
     display: inline-block;
+
+}
+.bag{
+  text-decoration: none;
 }
 .add-to-bag:hover{
     background-color: #cc5200;
