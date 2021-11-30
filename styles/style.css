@@ -194,12 +194,12 @@ footer .social img {
 .social a {
   text-decoration: none;
 
+
+
 }
 
 .social {
   text-align: left;
-  position: relative;
-  bottom: 30px;
 
 }
 
@@ -215,6 +215,7 @@ form {
   padding: 1em;
   border: 1px solid #CCC;
   border-radius: 1em;
+  margin-top: 100px;
 }
 
 ul {
