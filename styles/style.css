@@ -184,6 +184,7 @@ footer {
 footer .social img {
   padding-top: 15px;
 
+
 }
 
 .social a {
@@ -193,6 +194,8 @@ footer .social img {
 
 .social {
   text-align: left;
+  position: relative;
+  bottom: 30px;
 
 }
 
