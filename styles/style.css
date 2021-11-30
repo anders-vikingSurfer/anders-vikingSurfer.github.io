@@ -38,11 +38,26 @@ header {
   padding-left: 100px;
 }
 
-.communityevent{
+.communityevent1{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #ffa468;
+}
+
+.communityevent2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #ffa468;
+  position: relative;
+  top: 10px;
 }
 
 
