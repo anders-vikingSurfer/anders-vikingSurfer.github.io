@@ -167,6 +167,10 @@ body {
   padding-left: 55px;
 }
 
+.product9{
+  padding-left: 35px;
+}
+
 footer {
   text-align: left;
   background-color: #ffa468;
@@ -286,19 +290,3 @@ button {
 }
 
 
-
-
-
-
-/*  
-
-justify-content
-Aligns the grid container along the inline axis (by default horizontal). This only works when the grid is narrower than the space available.
-justify-items
-Aligns the grid item contents along the inline axis (by default horizontal). This only works when the contents of a grid cell are narrower than the grid cell.
-align-content
-Aligns the grid container along the block axis (by default vertical). This only works when the grid is shorter than the space available.
-align-items
-Aligns the grid item contents along the block axis (by default vertical). This only works when the contents of a grid cell are shorter than the grid cell.
-
-*/
