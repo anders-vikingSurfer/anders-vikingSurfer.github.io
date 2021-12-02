@@ -215,6 +215,8 @@ footer .social img {
 
 .social a {
   text-decoration: none;
+  justify-content: center;
+  padding-left: 20px;
 
 
 
